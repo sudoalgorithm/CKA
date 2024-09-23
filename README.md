@@ -24,7 +24,7 @@ Next, you have the user information, which defines how you authenticate with the
 ## Kubernetes Control Plane and Worker node breakdown (high level).
 
 | Control Plane Component | Worker Node Component |
-| :----------------------- | ---------------------:|
+| :-----------------------: | :---------------------:|
 | API Server: API is used to connect to kubernetes and deploy workload. | Kubelet: Kubernetes agent. |
 | ETCD: ETCD is the database for kubernetes and it store any non-ephemeral data. | Kube-proxy: Does the internal networking for the Kubernetes. |
 | Scheduler: Deploys the pods onto the desired worker node. | CRI: Container runtime interface. Kubernetes inherently dosen't know how to run containers and hence it uses CRI plugin to provide the runtime environment for containers. |
