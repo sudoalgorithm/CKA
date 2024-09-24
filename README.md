@@ -32,5 +32,13 @@ Next, you have the user information, which defines how you authenticate with the
 
 **Note: The recommended number of control plane nodes is 3, primarily due to ETCD. ETCD uses an algorithm called RAFT, which requires leader election— a process to determine which control plane node serves as the leader at any given time.**
 
+## API Server.
+
+API Server defines the methods of storing and interacting with various Kubernetes API's.
+
+![alt text](./assets/api_server.png "Title")
+
+
+
 
 
